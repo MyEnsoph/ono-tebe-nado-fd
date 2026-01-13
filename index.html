@@ -13,12 +13,29 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
+
     <header class = "header">
-      <nav class = "head_menu"></nav>
+      <nav class="head_menu">
+        <ul class="menu_list">
+            <li class="menu_item">
+                <a href="#" class="menu_link active">главная</a>
+            </li>
+            <li class="menu_item">
+                <a href="#" class="menu_link">посмотреть лоты</a>
+            </li>
+            <li class="menu_item">
+                <a href="#" class="menu_link">об аукционе</a>
+            </li>
+        </ul>
+    </nav>
       <a href = "#" class = "logo">
         <img src="images/logo-black.svg" alt="Оно тебе надо" class = "logo_img">
       </a>
-      <address class="header_address"></address>
+      <address class="header_address">
+        <a href="tel:+99995555555">+9 999 555 5555</a><br>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+    </address>
     </header>
 
     <main>
@@ -32,8 +49,10 @@
             <span class="word alight-text_center">тебе</span>
             <span class="word alight-text_right">надо</span>
           </h1>
-          <p class="cover_description_text">Аукцион вещей, вкоторые никто не верил</p>
+          <div class="cover_content">
+          <p class="cover_description_text">Аукцион вещей, в которые никто не верил</p>
           <button class="cover_button">Сделать ставку</button>
+          </div>
       </section>
 
 
