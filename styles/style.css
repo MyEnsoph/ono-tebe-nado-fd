@@ -177,7 +177,7 @@
     position: relative;
     z-index: 3;
     display: flex;
-    flex-direction:row; 
+    flex-direction: row;
     justify-content: space-between;
     margin: 0px 50px 50px 50px;
 }
@@ -208,7 +208,7 @@
     background-color: #ffffff;
     padding: 0px;
     min-height: auto; /* Убираем фиксированную высоту */
-    margin: 0 24px;
+    margin: 180px 24px 0 24px;
 }
 
 .lots_title {
@@ -302,25 +302,70 @@
     opacity: 0.8;
 }
 
-.about {
+/* .about {
+    background-color: #ffffff;
+    padding: 0px;
+    min-height: auto; /* Убираем фиксированную высоту */
+    /* margin: 120px 24px; */
+/* }  */
 
+.about {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    gap: 75px;
+    min-height: auto; /* Убираем фиксированную высоту */
+    margin: 120px 24px 0 24px;
+}
+
+/* Логотип - черный круг */
+.about_logo {
+    background-color: #000000;
+    margin-top: 35px;
+    margin-left: 47px;
+    width: 240px; /* Размер круга */
+    height: 240px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; /* Чтобы круг не сжимался */
+}
+
+/* Картинка внутри круга */
+.about_logo_img {
+    width: 60%; /* Размер логотипа относительно круга */
+    height: auto;
 }
 
 .about_column {
-
-}
-
-.about_logo {
-
+    margin-top: 133px;
+    display: flex;
+    flex-direction: column;
+    gap: 103px;
+    /* padding: 0 2.5px; */
 }
 
 .about_title{
-
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .about_text {
-
+    position: relative;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
 }
+
 
 .footer {
 
