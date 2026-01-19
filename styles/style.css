@@ -368,29 +368,86 @@
 
 
 .footer {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Распределить элементы по ширине */
+    align-items: flex-start; /* Выровнять элементы по верхнему краю */
+    background-color: #ffffff;
+    gap: 75px;
+    margin-top: 180px;
+    height: 180px;
 }
 
-.footer_contacts {
 
+.footer_contacts {
+    text-align: left;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 50px;
+    font-weight: 400;
+    font-style: normal;
+    width:264.57px;
+    height: 98px;
+    letter-spacing: 0px;
 }
 
 .footer_nav {
+    flex: 1;
+}
 
+.footer_nav_list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+.footer_nav_item {
+    position: relative;
+}
+
+.footer_nav_link {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    text-transform: lowercase;
+    transition: all 0.3s ease;
+}
+
+.footer_nav_link:not(.active) {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer_nav_link.active {
+    text-decoration: none;
+}
+
+.footer_nav_link:not(.active):hover {
+    opacity: 0.7;
 }
 
 .footer_social {
-
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
 }
 
 .social_pint {
-
+    display: flex;
+    width: 48px;
+    height: auto;
 }
 
 .social_vk {
-
+    display: flex;
+    width: 48px;
+    height: auto;
 }
 
 .social_yt {
-
+    display: flex;
+    width: 48px;
+    height: auto;
 }
