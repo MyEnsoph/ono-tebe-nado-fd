@@ -9,7 +9,7 @@
 Откройте файл `index.html` в браузере.
 
 ## Ссылка
-- [GitHub Pages] https://github.com/MyEnsoph/ono-tebe-nado
+- [GitHub Pages] https://github.com/MyEnsoph/ono-tebe-nado-fd
 
 ## Автор
 [Мигилёва Юлия]
