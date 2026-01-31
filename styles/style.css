@@ -97,7 +97,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: auto;
+    min-height: 0;
     padding: 0px;
 }
 
@@ -157,21 +157,6 @@
     margin-right: -45px;
 }
 
-.logo {
-
-}
-
-.logo_img {
-
-}
-
-.header_address {
-
-}
-
-.description {
-
-}
 
 .cover_content {
     position: relative;
@@ -207,7 +192,7 @@
 .lots {
     background-color: #ffffff;
     padding: 0px;
-    min-height: auto; /* Убираем фиксированную высоту */
+    min-height: 0; /* Убираем фиксированную высоту */
     margin: 180px 24px 0 24px;
 }
 
