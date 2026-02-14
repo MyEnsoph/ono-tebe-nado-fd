@@ -211,15 +211,15 @@
 }
 
 .card__type-film {
-    background-image: url('../images/card-lot-01.jpg')
+    background-image: url('../images/card-lot-01.jpg');
 }
 
 .card__type-book {
-    background-image: url('../images/card-lot-02.jpg')
+    background-image: url('../images/card-lot-02.jpg');
 }
 
 .card__type-picture {
-    background-image: url('../images/card-lot-03.jpg')
+    background-image: url('../images/card-lot-03.jpg');
 }
 
 .lot__title {
