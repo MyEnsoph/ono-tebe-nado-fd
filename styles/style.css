@@ -54,9 +54,8 @@
   font-style: normal;
   font-size: 18px;
   line-height: 24.5px;
-  padding-left: 151.48px;
   margin-right: 50px;
-  width: 391.48px;
+  width: 240px;
   letter-spacing: 0px;
 }
 
@@ -173,7 +172,6 @@
 .lots__list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   gap: 20px;
   width: 1052px;
   list-style: none;
@@ -306,10 +304,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #ffffff;
-  gap: 75px;
   margin-top: 180px;
-  padding-bottom: 82px;
+  margin-bottom: 82px;
 }
 
 .footer__nav-list {
