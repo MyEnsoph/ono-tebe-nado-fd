@@ -130,8 +130,8 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  padding-top: 7px;
-  letter-spacing: 0.3px;
+  padding-top: 5px;
+  letter-spacing: 0.25px;
   word-spacing: 17px;
   text-align-last: justify;
 }
@@ -162,7 +162,7 @@
 
 .lots {
   background-color: #ffffff;
-  margin: 180px 24px 0 24px;
+  margin: 170px 24px 0 24px;
   width: 1052px;
 }
 
