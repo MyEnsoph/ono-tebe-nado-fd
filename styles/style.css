@@ -162,7 +162,7 @@
 
 .lots {
   background-color: #ffffff;
-  margin: 190px 24px 0 24px;
+  margin: 195px 24px 0 24px;
   width: 1052px;
 }
 
@@ -170,7 +170,7 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 40px;
   color: #000000;
 }
@@ -178,7 +178,7 @@
 .lots__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   width: 1052px;
   list-style: none;
   padding: 0;
