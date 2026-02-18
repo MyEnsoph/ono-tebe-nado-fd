@@ -125,7 +125,6 @@
 }
 
 .cover-description__text {
-  /* max-width: 640px; */
   color: #ffffff;
   font-size: 22px;
   line-height: 28px;
@@ -140,7 +139,6 @@
   background: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
-  /* padding: 12px 32px; */
   width: 256px;
   height: 51px;
   font-size: 22px;
@@ -148,17 +146,6 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-/* 
-.word {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 30px;
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 1;
-  text-transform: uppercase;
-} */
 
 .lots {
   background-color: #ffffff;
@@ -310,8 +297,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 180px;
-  margin-bottom: 82px;
+  margin: 180px 50px 82px 50px;
 }
 
 .footer__nav-list {
